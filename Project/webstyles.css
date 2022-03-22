@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  background-color: #DDE0E3;
+  padding: 50px;
+  font-size: 40px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ nav, a {
+  text-align: center;
+  /*background-color: #DDE0E3;*/
+  background-color: #08174f;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+h3{
+  font-size: 20px;
+}
+
+img{
+ float:right;
+}
+
+body{
+  background-color: #47b5f5;
+}
