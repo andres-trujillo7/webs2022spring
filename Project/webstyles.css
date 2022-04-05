@@ -6,12 +6,13 @@
 
 h1 {
   text-align: center;
-  background-color: #DDE0E3;
+  background-color: #DDE0E3; /*#DDE0E3*/
   padding: 50px;
   font-size: 40px;
 /*  box-sizing: border-box;
   margin: 0;*/
   font-family: 'Playfair Display', serif;
+  color: black;
 }
 
  nav, a {
@@ -21,33 +22,175 @@ h1 {
   padding: 20px;
   font-size: 25px;
   color: white;
+  margin-bottom: 4em;
 }
 
-h3{
-  font-size: 20px;
-}
-
-img{
+img .Andres{
  float:right;
- margin-right: 80px;
+ margin-right: 50px;
 }
 
+@media only screen and (min-width: 961px){
 body{
-  background-color: #47b5f5;
+  /*background-color: #47b5f5;*/
+  background-color: #010b1a; /*dark mode*/
+  color: #bccbe3;
+  font-family: 'Playfair Display', serif;
+}
 }
 
+/*@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red
+  }
+}
 
-h3{
-  margin-left: 200px;
-  font-size: 25px;
+/* Tablet Styles
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow
+  }
+}
+
+/* Desktop Styles
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue
+  }
+}*/
+
+
+.about h2{
+  font-size: 20px;
+  margin-left: 300px;
+  font-size: 55px;
 }
 
 p.welcome{
   text-align: center;
   font-size: 20px;
+  margin-bottom: 14em;
+
 }
 
-p.about{
-  margin-left: 200px;
+
+.about {
+  align-items: center;
+}
+.aboutSec{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3em;
+  /*justify-content: center;*/
+}
+
+.about .aboutPAR {
+  width: 800px;
+  border: 1px solid #bccbe3;
+  padding: 50px;
+  margin: 20px;
   font-size: 20px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+
+h4{
+  margin-bottom: 1em;
+}
+
+
+.contact{
+    background: black;
+    color:white;
+    height:270px;
+}
+
+.contact .social{
+  margin-bottom: 20px;
+}
+
+.social-icons ul{
+  position: absolute;
+  /*top: 20%;
+  left: 50%; */
+  padding: 0;
+  margin: 0;
+  /*transform: translate(-50%, -50%);*/
+  display: flex;
+
+}
+
+.social-icons ul li{
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+.social-icons ul li .fa{
+  font-size: 30px;
+  line-height: 0px;
+  transition: .6s;
+  color: #000;
+}
+
+.social-icons ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-icons ul li a:hover{
+  transform: translate(0, -10px);
+}
+
+
+
+/*code*/
+
+.codeGit ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+
+}
+
+.codeGit ul li{
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+.codeGit ul li .fa{
+  font-size: 770px;
+  line-height: 700px;
+  transition: .6s;
+  color: #000;
+}
+
+.codeGit ul li a{
+  margin-top: 800px;
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: pink;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.codeGit ul li a:hover{
+  transform: translate(0, -20px);
 }
