@@ -109,7 +109,7 @@ h4{
 .contact{
     background-color: black;
     color:white;
-    height:270px;
+    /*! height:270px; */
 }
 
 .contact .social{
@@ -117,7 +117,7 @@ h4{
 }
 
 .social-icons ul{
-  position: absolute;
+  /*! position: absolute; */
   /*top: 20%;
   left: 50%; */
   padding: 0;
@@ -162,19 +162,26 @@ h4{
 
 .grid-container{
   display: grid;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 96px 1fr 100px;
   align-items: center;
+  min-height: 100vh;
+}
+
+
+.codeGit {
+  display: flex;
+  justify-content: center;
 }
 
 
 .codeGit ul{
-  position: absolute;
+  /*! position: absolute; */
   top: 50%;
   left: 50%;
   padding: 0;
   margin: 0;
-  transform: translate(-50%, -50%);
-  display: flex;
+  /*! transform: translate(-50%, -50%); */
+  /*! display: flex; */
 
 }
 
@@ -185,26 +192,27 @@ h4{
 }
 
 .codeGit ul li .fa{
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 9em;
+  line-height: 0.75em;
   transition: .6s;
   color: #000;
 }
 
 .codeGit ul li a{
   margin-top: 80px;
-  position: relative;
+  /*! position: relative; */
   display: block;
-  /*width: 800px;
-  height: 800px;*/
-  height: 60px;
-  max-height: 80vh;
-  max-width: 80vw;
+  width: 10em; height: 10em;
+  /*! height: 60px; */
+  /*! max-height: 80vh; */
+  /*! max-width: 80vw; */
   border-radius: 50%;
   background-color: pink;
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
 }
 
 .codeGit ul li a:hover{
