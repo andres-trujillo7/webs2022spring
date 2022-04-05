@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  /*background-color: #47b5f5;*/
-  background-color: #010b1a; /*dark mode*/
-  color: #bccbe3; /*font color*/
-  font-family: 'Playfair Display', serif;
-}
-
 h1 {
   text-align: center;
   background-color: #DDE0E3; /*#DDE0E3*/
@@ -19,6 +12,7 @@ h1 {
   font-size: 40px;
 /*  box-sizing: border-box;
   margin: 0;*/
+  font-family: 'Playfair Display', serif;
   color: black;
 }
 
@@ -42,7 +36,14 @@ img .Andres{
  margin-right: 50px;
 }
 
-
+@media only screen and (min-width: 961px){
+body{
+  /*background-color: #47b5f5;*/
+  background-color: #010b1a; /*dark mode*/
+  color: #bccbe3;
+  font-family: 'Playfair Display', serif;
+}
+}
 
 /*@media only screen and (max-width: 400px) {
   body {
@@ -107,7 +108,7 @@ h4{
 
 
 .contact{
-    background-color: black;
+    background: black;
     color:white;
     height:270px;
 }
@@ -163,7 +164,10 @@ h4{
 .grid-container{
   display: grid;
   grid-template-rows: 50px 1fr 50px;
-  align-items: center;
+}
+
+.codeGit{
+  align-self: center;
 }
 
 
@@ -244,19 +248,19 @@ h4{
   margin: 20px;
   font-size: 20px;
   /*margin-left: 300px;
-  margin-right: 100px;
+  margin-right: 100px;*/
   text-align: center;
   /*display: inline-block;*/
 }
 
-/*.dreams {
+.dreams {
   width: 400px;
   border: 1px solid #bccbe3;
   padding: 50px;
   margin: 20px;
   font-size: 20px;
   /*margin-left: 300px;
-  margin-right: 100px;
+  margin-right: 100px;*/
   text-align: center;
   display: inline-block;
   float: right;
