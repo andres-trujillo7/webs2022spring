@@ -35,40 +35,26 @@ h1 {
 nav a{
   padding-top: 0;
   padding-bottom: 0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #8646cf;
 }
 
 img .Andres{
  float:right;
  margin-right: 50px;
+ width: 100%;
+ height: auto;
 }
-
-
-
-/*@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red
-  }
-}
-
-/* Tablet Styles
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow
-  }
-}
-
-/* Desktop Styles
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue
-  }
-}*/
 
 
 .about h2{
-  font-size: 20px;
-  margin-left: 300px;
-  font-size: 55px;
+  margin-left: 350px;
+  font-size: 3em;
+
+  /*text-align: center;*/
 }
 
 p.welcome{
@@ -105,6 +91,13 @@ h4{
   margin-bottom: 1em;
 }
 
+.destiny{
+  font-size: 3em;
+  color: #f00dfc;
+}
+
+/*footer*/
+
 
 .contact{
     background-color: black;
@@ -115,6 +108,12 @@ h4{
 .contact .social{
   margin-bottom: 20px;
 }
+
+.b2t{
+  background-color: black;
+  color:white;
+}
+
 
 .social-icons ul{
   /*! position: absolute; */
@@ -129,31 +128,37 @@ h4{
 
 .social-icons ul li{
   list-style: none;
-  margin: 0 15px;
+  margin: 0 20px;
 
 }
 
 .social-icons ul li .fa{
-  font-size: 30px;
-  line-height: 0px;
+  font-size: 2em;
+  line-height: 0.20em;
   transition: .6s;
   color: #000;
 }
 
 .social-icons ul li a{
-  position: relative;
+  /*position: relative;*/
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 2em;
+  height: 2em;
   border-radius: 50px;
   background-color: white;
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons ul li a:hover{
   transform: translate(0, -10px);
+}
+
+.social, .email, .contactme{
+  font-size: 1.25em;
 }
 
 
@@ -191,23 +196,28 @@ h4{
 
 }
 
-.codeGit ul li .fa{
-  font-size: 9em;
+#cat{
+  text-decoration: none;
+}
+
+
+.codeGit ul li .fa{ /*cat*/
+  font-size: 18em;
   line-height: 0.75em;
   transition: .6s;
   color: #000;
+
 }
 
 .codeGit ul li a{
-  margin-top: 80px;
   /*! position: relative; */
   display: block;
-  width: 10em; height: 10em;
+  width: 18em; height: 18em;
   /*! height: 60px; */
   /*! max-height: 80vh; */
   /*! max-width: 80vw; */
   border-radius: 50%;
-  background-color: pink;
+  background-color: #96c4e0;
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
@@ -219,23 +229,38 @@ h4{
   transform: translate(0, -20px);
 }
 
+.note{
+  font-size: 1.4em;
+}
+
 /*photos*/
-.confia {
-  width: 800px;
+
+
+.photobox {
+  width: auto;
   border: 1px solid #bccbe3;
   padding: 50px;
   margin: 20px;
   font-size: 20px;
   /*margin-left: 300px;
   margin-right: 100px;*/
+  text-align: center;
+}
+
+.confiaText{
+  margin-top: 1em;
+  text-align:left;
+}
+
+.note{
   text-align: center;
 }
 
 
 
 /*audios*/
-.winter {
-  width: 400px;
+.audiobox {
+  width: auto;
   border: 1px solid #bccbe3;
   padding: 50px;
   margin: 20px;
@@ -244,6 +269,26 @@ h4{
   margin-right: 100px;*/
   text-align: center;
 }
+
+.music{
+  font-size: 1.5em;
+  color: yellow;
+}
+
+
+.wintertext{
+  text-align: left;
+}
+
+.soccar{
+  font-size: 1.5em;
+}
+
+.room{
+  font-size: 2em;
+}
+
+
 
 /*.hyper {
   width: 400px;
