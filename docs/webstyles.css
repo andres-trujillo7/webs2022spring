@@ -22,10 +22,14 @@ h1 {
   color: black;
 }
 
+nav{
+    background-color: #08174f;
+}
+
  nav, a {
   text-align: center;
   /*background-color: #DDE0E3;*/
-  background-color: #08174f;
+
   padding: 1.5em;
   font-size: 1.3em;
   color: white;
@@ -97,6 +101,20 @@ h4{
 }
 
 /*footer*/
+.btt{
+  font-size: 2em;
+  color: white;
+  background-color: black;
+  float: right;
+
+}
+
+.btt a{
+  text-decoration: none;
+}
+.btt a:hover {
+  color: #8646cf;
+}
 
 
 .contact{
