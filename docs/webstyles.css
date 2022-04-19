@@ -13,10 +13,9 @@ body{
 
 h1 {
   text-align: center;
-  background-color: #DDE0E3; /*#DDE0E3*/
+  background-color: #a8a0eb; /*#DDE0E3*/
   padding: 50px;
-
-  font-size: 40px;
+  font-size: 80px;
 /*  box-sizing: border-box;
   margin: 0;*/
   color: black;
@@ -42,6 +41,14 @@ nav a{
   text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8646cf;
+}
+
 nav a:hover {
   color: #8646cf;
 }
@@ -58,7 +65,7 @@ nav a:hover {
 
 .about h2{
   /*margin-left: 350px;*/
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   margin-bottom: 1em;
 
