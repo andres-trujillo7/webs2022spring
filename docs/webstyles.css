@@ -46,11 +46,13 @@ nav a:hover {
   color: #8646cf;
 }
 
-img .Andres{
+.Andres{
  float:right;
  margin-right: 50px;
- width: 100%;
+ max-width: 350px;
  height: auto;
+ flex-wrap: wrap;
+ object-fit: contain;
 }
 
 
