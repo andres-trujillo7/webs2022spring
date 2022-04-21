@@ -79,11 +79,19 @@ p.welcome{
   animation: blinker 4s linear infinite;
 }
 
-@keyframes blinker { /*SOURCEL https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3*/
-  50% {
-    opacity: 0;
+
+  @keyframes blinker { /*SOURCEL https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3*/
+    50% {
+      opacity: 0; /*ADD PREFERS REDUCED MOTION*/
+    }
+  }
+
+@media (prefers-reduced-motion: reduce){
+  .blinker{
+    animation: blinker 0s linear infinite;
   }
 }
+
 
 
 .about {
